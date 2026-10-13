@@ -59,7 +59,7 @@ tracing = { version = "^0.1", features = ["attributes"] }
 tracing-subscriber = { version = "^0.3", features = ["env-filter"] }
 tracing-opentelemetry = "^0.31"
 opentelemetry = { version = "^0.30" }
-opentelemetry_sdk = { version = "^0.30", features = ["rt-tokio"] }
+opentelemetry_sdk = { version = "^0.32", features = ["rt-tokio"] }
 opentelemetry-otlp = { version = "^0.30", features = ["grpc-tonic"] }
 opentelemetry-semantic-conventions = "^0.30"
 
